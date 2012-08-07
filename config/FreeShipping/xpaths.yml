@@ -1,0 +1,217 @@
+#Free Shipping Data Files
+#Menu
+macys_home: //*[@id='globalMastheadLogo']/a
+menu_beauty_cosmetics: //*[@alt='beauty and cosmetics']
+sign_in: sign in
+
+#SubMenu
+submenu_container: //*[@id='localNavigationContainer']
+submenu_beauty_items: //*[@id='localNavigationContainer']/ul/li[3]/ul/li/a
+
+#Product Selection
+#Product thumbnails
+thumbnailsContainer: //div[@class="thumbnails"]
+product_thumbnails: "//div[@id='thumbnails']/div/div/div/a"
+product_wethumbnails: "//div[@id='weRecommendThumbnails']/div/div/div/a"
+product_thumbnails1: "//div[@id='thumbnails1']/div/div/div/a"
+
+product_thumbnails_filter: "//div[@id='thumbnails']/div/div/div/div/div/a"
+product_wethumbnails_filter: "//div[@id='weRecommendThumbnails']/div/div/div/div/div/a"
+product_thumbnails1_filter: "//div[@id='thumbnails1']/div/div/div/div/div/a"
+ 
+check_masterproduct: '//*[@id="viewCollectionItemsButton"]/a'
+master_product: '//*[@class="memberUrlUpdate"]'
+master_product_fulldetail: '//*[@class="fullProductDetailsLink"]'
+product_url: //*[@class='productName productUrl']
+product_quantity: productQuantity
+
+#Add to bag and checkout
+add_to_bag_btn: //*[@class='addToBagButton']
+add_to_bag_img: //*[@alt='add to bag']
+add_to_bag_hdr: //*[@id='atb_header']
+continue_shopping: //*[@id='btnContinueShopping']
+checkout_toplink: //*[@id='checkoutLink']
+checkout_btn: //*[@id='btnCheckout']
+normal_checkout: //*[@id='isnormalcheckout']
+popup_close: //*[@alt='Close']
+continue_checkout: //*[@alt='CONTINUE CHECKOUT']
+continue_checkout_btn: //*[@id='continueCheckout']
+continue: //*[@alt='CONTINUE']
+new_address: //*[@id='newAddress']
+shopping_bag: //div[@class="yourShoppingBag"]
+shopping_bag_popup: //*[@id='panelBodyPopIn']
+shopping_bag_footer: //*[@id='bagFooterContent']
+back_one_step: //*[@alt='BACK ONE STEP']
+error_msg: //*[@id='errorMsgContainer']
+product_box: //*[@id='productBox']
+continue_without_profile: //*[@alt='CHECKOUT WITHOUT PROFILE']
+search_text: Keyword
+women_dress: Jump Dress, Strapless Ruffled Pleated Trumpet Gown
+search_button: //input[@name='KEYWORD_GO_BUTTON']
+bag_estimated_total: //*[@id='bagEstimatedShippingTotal']
+promo_code: promoCode
+free_ship_charge: FREE
+price_msg: "//div[@id='customPriceNoResultsMsgPanel_c']"
+
+#Shipping
+estimated_shipping: //*[@id='estimatedShipping']
+estimated_shipping_total: //*[@id='bagEstimatedShippingTotal']
+estimated_ship_popup_text: //*[@id='estmdShipPopUpText']
+shipping_multiple_address: //*[@id='shipToMultipleAddr']
+shipping_method1: //*[@id='shippingMethod1']
+shipping_method2: //*[@id='shippingMethod2']
+shipping_method3: //*[@id='shippingMethod3']
+radio_item: //*[@name='shipmentItems[0].checked']
+order_summary_bagid: //*[@class='orderSummary_bagid']
+shipping_charge_price: //*[@id='mcyCheckoutPricingSummary']/div/table/tbody/tr[2]/td[3]
+shipping_address: //*[@id='shippingAddress']
+shipping_address_default: //div[@class="row"]/span/div/div/input
+shipping_address_wishlist: //*[@class='shippingDetails_wishlistContact_right ']/div/input
+shipping_address_content: //*[@id='mcyCheckoutMainContent']
+shipping_address_summary: //*[@id='mcyCheckoutPricingSummary']
+shipping_address_bag_buttons: //*[@id='bag_buttons']
+merchandise_total: //*[@id='bagMerchandiseTotal']
+total_shipping_cost: //*[@id='totalShipCost']
+shipping_charges_summary: //*[@id='mcyCheckoutPricingSummary']/div/table/tbody/tr[2]
+shopping_bag_remove_link: //div[@class='lineItem dashedResgistryLine'][2]/div[@class='secondary removeLink']
+
+#Login
+sign_in_home_page: //*[@id='accountSignIn']
+signin_email: email
+email_id: //*[@id='email']
+signin_password: password
+field_sec_id: cuuv2_0
+
+#Form Data
+fName: firstName
+lname: lastName
+address1: addressLine1
+fCity: city
+zip_code: zipCode
+phone_code: phoneAreaCode
+exchange_nbr: phoneExchangeNBR
+subscriber_nbr: phoneSubscriberNBR
+contact_email: contactEmail
+verify_email: verifyEmail
+
+#Pop-up Window Contents
+popup_text: Your Shipping Details
+std_ship_sec: STANDARD SHIPPING
+popup_total_shipping_cost_text: //h2[@class='totalShipping']/span[@class='totalShippingText']
+popup_total_shipping_cost_value: //h2[@class='totalShipping']/span[@class='totalShippingValue']
+popup_window_close: //*[@alt='Close this window.']
+table_cost_std: '//*[@id="rn_AnswerText"]/table[1]/tbody/tr[2]'
+table_cost_pre: '//*[@id="rn_AnswerText"]/table[1]/tbody/tr[3]'
+table_cost_exp: '//*[@id="rn_AnswerText"]/table[1]/tbody/tr[4]'
+table_int_std: '//*[@id="rn_AnswerText"]/table[2]/tbody/tr[2]'
+table_int_pre: '//*[@id="rn_AnswerText"]/table[2]/tbody/tr[3]'
+table_int_exp: '//*[@id="rn_AnswerText"]/table[2]/tbody/tr[4]'  
+link_othercountry: '//*[@id="contentWell"]/div/div/div/ol/li[1]/span/a'
+table_text: '//*[@id="rn_AnswerText"]'
+table_textcontent: '//*[@id="rn_AnswerText"]/p'
+
+#Random Selection
+fromRangeId: //input[@id="fromValue"]
+fromValue: fromValue
+toValue: toValue
+filterButton: //*[@id="customPriceGoBtn"]
+selectQuantityId: //*[@id="productQuantity"]
+macysGlobalContainer: //*[@id="macysGlobalLayout"]
+mainmenus: "//div[@id='globalNav']/ul/li/a/img"
+submenus: "//*[@id='localNavigationContainer']/ul/li/ul/li/a"
+subcategory: "//div[@id='facets']/div"
+noPrice_okBtn: //div[@class='okBtn']
+facet_breadcrump: //*[@id="facetItems"]
+
+#Color & Size
+color_size_class: '//*[@id="pdpAttributes"]'
+product_size: '//*[@id="pdpAttributes"]/div[@class="sizes"]'
+product_select_size: "//*[@id='pdpAttributes']/div[@class='sizes']/ul/li"
+color: '//*[@id="pdpAttributes"]/div[@class="colors"]'
+color_val: '//*[@id="pdpAttributes"]/div[@class="colors"]/ul/li'
+master_size: "//*[@class='sizeSelection']"
+master_size_val: '//*[@class="sizeSelection"]/div/div/ul/li'
+size: '//*[@id="pdpAttributes"]/div[@class="sizes"]'
+size_val: '//*[@id="pdpAttributes"]/div/div/ul/li'
+master_continue_shopping: '//*[@id="m_atb_add_more"]'
+checkout: '//*[@alt="Checkout"]'
+master_checkout: '//*[@id="m_atb_checkout"]'
+
+#----- Build Acceptance -----#
+shopping_bag_content: //*[@id="bagContentLineItems"]
+shopping_bag_item_container: //*[@id="itemsContainer"]
+shopping_bag_item_quantity: //select[@class="selectQty qtySelect_1"]
+facets: //*[@id="facets"]
+facets_content: div.brandFacet>ul:first>li
+facets_link: div.brandFacet>ul>li>span.BRAND
+facets_showall: 'div#nav_title>div.show-all>span'
+facet_showall_container: //*[@id="nav_title"]/div[@class="show-all"]
+facet_currentCategory: '#breadcrumbs>span.currentCategory'
+facets_breadCrums: 'div#facetItems>span.BRAND'  
+facets_items: 'div#breadcrumbs>div.breadCrumb_productCount>span#productCount'
+
+#Credit Page
+customer_service_path: //div[@id="customerServiceLinks"]/a/h3
+customer_service_page_url_production: https://customerservice.macys.com/app
+customer_service_page_url_qa: https://macys--tst.custhelp.com/
+
+main_menu_xpath: //*[@id="globalSubNavStoreLinks"]
+wedding_registry_xpath: //*[@alt="Wedding Registry"]
+main_menu_ul_xpath: //*[@id="globalNav"]/ul
+container_xpath: //*[@id="localContentContainer"]
+
+
+#Express CheckOut
+#Create Profile
+create_profile_btn: //*[@id="createAccount"]
+create_profile_fname: addressVB.firstName
+create_profile_lname: addressVB.lastName
+create_profile_address: addressVB.addressLine1
+create_profile_city: addressVB.city
+create_profile_state: addressVB.state
+create_profile_zipcode: addressVB.postalCode
+create_profile_email: signInVB.email
+create_profile_verify: signInVB.verifyEmail
+create_profile_password: signInVB.password
+create_profile_verify_password: signInVB.verifyPassword
+create_profile_secure_qus: SecurityQna
+create_profile_secure_ans: securityAns
+create_profile_month: userBirthDate.month
+create_profile_day: userBirthDate.day
+create_profile_year: userBirthDate.year
+create_profile_sex: gender
+create_profile_check: //*[@id="emailSalesEvents"]
+create_profile_page_btn: //*[@class="buttonSubmitBorders"]
+#Wallet Page
+wallet_ccard: creditCardVB.ccardType
+wallet_cnumber: creditCardVB.creditCardNumber
+wallet_month: creditCardVB.month
+wallet_year: creditCardVB.year
+wallet_fname: creditCardVB.billingAddress.firstName
+wallet_lname: creditCardVB.billingAddress.lastName
+wallet_address: creditCardVB.billingAddress.addressLine1
+wallet_city: creditCardVB.billingAddress.city
+wallet_state: creditCardVB.billingAddress.state
+wallet_zipcode: creditCardVB.billingAddress.postalCode
+wallet_area: areaCode
+wallet_exchange: exchangeNbr
+wallet_sub: subscriberNbr
+wallet_email: creditCardVB.email
+wallet_verify: creditCardVB.verifyEmail
+wallet_save_btn: //*[@alt="Save"]
+
+#address page
+address_fname: addressVB.firstName
+address_lname: addressVB.lastName
+address_address: addressVB.addressLine1
+address_city: addressVB.city
+address_state: addressVB.state
+address_zipcode: addressVB.postalCode
+address_area: addressVB.phoneVB.areaCode
+address_exchange: addressVB.phoneVB.exchangeNumber
+address_sub: addressVB.phoneVB.subscriberNumber
+address_add_btn: //*[@id="saveAddressBtn"]
+express_checkout_btn: //*[@alt="EXPRESS CHECKOUT"]
+ccard_code_number: billingVB.currentCreditCard.cvv2
+place_order_btn: //*[@alt='PLACE ORDER']
+order_number: //*[@id='checkoutConfirmation']/div/div[4]/span

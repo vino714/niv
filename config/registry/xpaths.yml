@@ -1,0 +1,170 @@
+#Create Registry
+email: email
+verify_email: verifyEmail
+password: password
+verify_password: verifyPassword
+menu_wedReg: //*[@alt='Wedding Registry']
+createReg_circle: //*[@id='cc1']
+createUser_withoutProfile: //*[@id='registrySignInVB']
+btn_createReg_withoutProfile: //*[@id="noProfileSubmitImg"]
+registryType: registry.registryType
+event_month: eventDate.month
+event_day: eventDate.day
+event_year: eventDate.year
+event_location: registry.eventDetails.eventLocation.code
+guests_number: estimatedNoOfGuests
+firstName: userProfile.contactInfo.firstName
+lastName: userProfile.contactInfo.lastName
+address: userProfile.contactInfo.address.addressLines0
+city: userProfile.contactInfo.address.city
+state: userProfile.contactInfo.address.state
+postalCode: userProfile.contactInfo.address.postalCode
+birth_month: contactBirthDate.month
+birth_day: contactBirthDate.day
+birth_year: contactBirthDate.year 
+phone_areaCode: userProfile.contactInfo.bestPhone.areaCode
+phone_exchange: userProfile.contactInfo.bestPhone.exchange
+phone_number: userProfile.contactInfo.bestPhone.number
+password_hint: userProfile.userPasswordHintBO.hintID
+password_answer: userProfile.userPasswordHintBO.hintAnswer
+coreg_firstName: registry.coRegistrantContactInfo.firstName
+coreg_lastName: registry.coRegistrantContactInfo.lastName
+store_state: registry.eventDetails.preferedStore.address.state
+store_number: registry.eventDetails.preferedStore.rsfNumber
+subscribe_wed: //*[@id="registry.subscribeWeddingEmailSalesEvents1"]
+subscribe_mails: //*[@id="subscriptions.emailSalesEvents1"]
+btn_register: //*[@alt="Register"]
+manage_navigation: //*[@id="managerNavigation"]
+edit_account: Edit Account
+
+#Sign In Link xpath
+signin_link: sign in
+
+#Login Details
+txt_email: 'email'
+txt_password: 'password'
+xemail: //*[@id="email"]
+xpassword: //*[@id="password"]
+signin_button: '//*[@id="accountSignIn"]'
+
+#Macy's Wedding Registry Page xpath details
+wedding_registry_id: //*[@id="weddingRegistry"]
+
+#couple's registry search box xpath details
+txt_first_name: '//*[@id="searchCriteria.firstName"]'
+txt_last_name: '//*[@id="searchCriteria.lastName"]'
+btn_find_element: '//*[@id="findButton"]'
+#first name and last name id's for fill_in commands
+txt_f_name: searchCriteria.firstName 
+txt_l_name: searchCriteria.lastName      
+
+#Update Registrant....
+btn_Update: '//*[@id="updateButtonSignedIn"]'     
+link_editAcc: '//*[@id="editAccLink"]'   
+page_update: update your registry   
+update_btn: '//*[@alt="Update"]'   
+btn_view_Reg: //*[@alt='VIEW REGISTRY']
+lastName1: //*[@id="userProfile.contactInfo.lastName"]
+address1: //*[@id="userProfile.contactInfo.address.addressLines0"] 
+Global_logo: '//*[@id="globalMastheadLogo"]'
+
+#Result page element of searched couples xpath details
+css_reg_Item_Row_Counter: "#resultsTable tbody.tbmark tr"
+csspath_reg_Item_Data_Counter: "#resultsTable tbody.tbmark tr td"
+
+# Link containing product
+link: http://www1.macys.com/shop/product/lauren-by-ralph-lauren-bedding-bleecker-street-collection?ID=586828&CategoryID=7502#fn=sp%3D1%26spc%3D322%26ruleId%3D52%26slotId%3D3
+link_member: http://www1.macys.com/shop/product/lauren-by-ralph-lauren-bedding-bleecker-street-jacquard-18-x-18-throw-pillow?ID=591678&CategoryID=7502&swatchColor=Red Multi
+
+#Registrant page add to bag button element xpath details
+xpath_add_bag_button: '//*[@id="addToBag-top"]'
+xpath_continue_shopping_button: '//*[@id="btnContinueShopping"]'
+xpath_mybag_button: '//*[@id="itemInfo"]'
+
+#non registrant product page xpath details
+#Main Menu xpath details
+xpath_mainmenus: "//div[@id='globalNav']/ul/li/a/img"
+
+#Sub Menu xpath details
+xpath_submenus: "//div[@id='localNavigationContainer']/ul/li/ul/li/a"
+xpath_subcategory: "//div[@id='facets']/div"
+
+#Product xpath details
+xpath_product_thumbnails: "//div[@id='thumbnails']/div/div/div/a"
+xpath_product_wethumbnails: "//div[@id='weRecommendThumbnails']/div/div/div/a"
+xpath_product_thumbnails1: "//div[@id='thumbnails1']/div/div/div/a"
+ 
+#Master product xpath details 
+xpath_check_masterproduct: '//*[@id="viewCollectionItemsButton"]/a'
+xpath_master_product: '//*[@class="memberUrlUpdate"]'
+xpath_master_product_fulldetail: '//*[@class="fullProductDetailsLink"]'
+ 
+#Product color xpath details 
+xpath_color_size_class: '//*[@id="pdpAttributes"]'
+xpath_product_color: "//*[@id='pdpAttributes']/div[@class='colors']"
+xpath_product_select_color: "//*[@id='pdpAttributes']/div[@class='colors']/ul/li"
+
+#Product size xpath details 
+xpath_product_size: '//*[@id="pdpAttributes"]/div[@class="sizes"]'
+xpath_product_select_size: "//*[@id='pdpAttributes']/div/div/ul/li"
+
+#Add to bag and continue shopping xpath details of product page 
+xpath_add_to_bag: '//*[@alt="add to bag"]'
+xpath_continue_shopping: '//*[@alt="Continue Shopping"]'
+xpath_master_continue_shopping: '//*[@id="m_atb_add_more"]'
+
+#Check out xpath details of product page 
+xpath_checkout: '//*[@alt="Checkout"]'
+xpath_master_checkout: '//*[@id="m_atb_checkout"]'
+xpath_express_checkout: '//*[@alt="EXPRESS CHECKOUT"]'
+xpath_continue_checkout: "//*[@alt='CONTINUE CHECKOUT']"
+
+#Shipping Address Page xpath details
+txt_registrant_address: "Registrant's address is not shown for privacy."
+xpath_mul_ship_addr_option: "//div[@id='divshipToMultipleAddr']/div/input[@checked='']"
+xpath_registry_icon: '//*[@alt="RegistryIcon"]'
+check_registrant_adderess: registrantAddress
+
+#Shipping bag Page xpath details
+xpath_continue_button: "//*[@alt='CONTINUE']"
+xpath_order_gift_option: "//div[@class='ShippingOption_giftOptions']/div/span[2]/input[@checked='']"
+xpath_openshipment: '//*[@id="openShipmentItems"]'
+txt_linkToGVRPage: 'back to registry'
+txt_goGreenMessage: "This couple has chosen our Go Green option and prefers gifts shipped from Macy's without gift wrap or gift box"
+#Payment details page xpath details
+xpath_security_code_txtbox: "//*[@id='cuuv2_0']"
+txt_security_code: cuuv2_0
+
+
+#Login Create Registry Credencial...
+Email_form: "//*[@class='innerLeft gainlayout']"
+Create_Reg_button: '//div[3]/div[2]/div/div/div/form/div/fieldset/div[4]/input' 
+
+#adding to registry
+xpath_add_to_reg: '//*[@alt="add to registry"]'
+xpath_viewregistry: "//*[@id='viewRegistry']"
+
+#Create Registry
+Create_Reg: '//*[@id="cc1"]'
+
+#Wedding and Gift Registry
+Wed_Gift_Registry: '//*[@alt="wedding & gift registry"]'
+Wed_Registry_page: '//*[@alt="Wedding Registry"]'
+
+#shipment process...
+xpath_own_Profile: "//*[@id='divtestuserabc12345']/div/input[@checked='']"     
+xpath_co_Registry: "//*[@id='divregistrantAddress']/div/div/input[@checked='']"
+shipment1: "choose items for shipment # 1"     
+shipAdd1: "Choose shipping address for shipment # 1"   
+Option1: "Choose Shipping Options for Shipment # 1"     
+shipment2: "choose items for shipment # 2"   
+shipAdd2: "Choose shipping address for shipment # 2"
+RegAdd: "Registrant's address is not shown for privacy."    
+Option2: "Choose Shipping Options for Shipment # 2"      
+shipment3: "choose items for shipment # 3"     
+shipAdd3: "Choose shipping address for shipment # 3"   
+Option3: "Choose Shipping Options for Shipment # 3" 
+review: "review your shipments" 
+review1: "review your orders"     
+check1: 'shipmentItems[0].checked'
+check2: 'shipmentItems[1].checked' 

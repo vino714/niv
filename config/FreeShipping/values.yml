@@ -1,0 +1,72 @@
+﻿#Shipping Charges
+std_text: Standard $9.95 FREE
+pre_text: Premium $19.95 $10.00
+exp_text: Express $29.95 $20.00
+std_int_text: Standard $9.95 + international shipping fees FREE + international shipping fees
+pre_int_text: Premium $19.95 + international shipping fees $10.00 + international shipping fees
+exp_int_text: Express $29.95 + international shipping fees $20.00 + international shipping fees
+pre_text_para: Prima $19.95 $10.00
+exp_text_para: Expreso $29.95 $20.00
+txt_free: FREE
+pre_charge: "10.00"
+exp_charge: "20.00"
+merchandise_total: 99
+default_shipping_charge: 9.95
+std_ship_cost: $9.95
+val_sec_id: 123
+std_ship_cost_subtot: "Standard Shipping Costs Subtotal: $9.95"
+tot_ship_cost: "TOTAL SHIPPING COSTS FOR YOUR ORDER:"
+
+testuser: testuser@testing.com
+testPassword: 123456789
+stdShipCharge: "Shipping Charges : $ 9.95"
+premiumShipCharge: "Shipping Charges : $ 19.95"
+expressShipCharge: "Shipping Charges : $ 29.95"
+stdMulShipCharge: 6
+premiumMulShipCharge: 16
+expressMulShipCharge: 26
+stdMulShipChargeTwo: 6
+premiumMulShipChargeTwo: 26
+expressMulShipChargeTwo: 36
+freeShipCharge: 'Shipping Charges : $ FREE'
+stdShip: Standard Shipping
+stdShipCost: $9.95
+totEstShip: Total Est. Shipping Costs
+totEstShipCost: $9.95
+stdShipMulChargeNoFree: 15.95
+premiumMulShipChargeNoFree: 25.95
+expressShipMulChargeNoFree: 35.95
+stdShipMulChargeNoFreeTwo: 25.95
+premiumMulShipChargeNoFreeTwo: 35.95
+expressShipMulChargeNoFreeTwo: 45.95
+
+#Profile Details
+First_name: john
+Last_name: paul
+Address: 123 green lane
+city: San Fransisco
+state: California
+zipcode: 94105
+password: manimani
+verify_password: manimani
+security_qus: What was the name of your first pet?
+security_ans: pinky
+dob_month: November
+dob_day: 17
+dob_year: 1992
+sex: Male
+ccard_type: Visa
+ccard_number: 4111111111111111
+ccard_month: June
+ccard_year: 2020
+phone_area: 123
+phone_exchange: 456
+phone_sub: 7890
+seucrity_code: 123 
+
+#User and Credit Card details not to be used
+First_name_CC: User
+Last_name_CC: A
+CC_No: 377481700439190
+email_CC: GN_Dontuseuser2@abc.com
+Ssn_No: 1221

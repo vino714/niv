@@ -1,0 +1,64 @@
+password: test123
+reg_type: ANNIVERSARY
+reg_month: MAY
+reg_day: 17
+reg_year: 2017
+event_location: New York
+firstName: test
+lastName: User
+address: 12th cross st
+guests: 120
+city: New York
+state: New York
+zipcode: 10025
+birth_mon: January
+birth_date: 14
+birth_year: 1989
+phone_areaCode: 995 
+phone_exchange: 256 
+phone_number: 6061
+password_hint_question: What was the name of your first pet?
+pass_ans: dany
+coreg_firstName: coRegisterant
+coreg_lastName: lname
+store_city: New York
+store_pref: Yonkers - Cross County
+event_month: May
+event_day: 25
+event_year: 2015
+guests: 139
+
+#Update Registrant info...
+newlastName: TestUser
+newAddress: Abc   
+
+#BVR Checkout
+No_itemtoReg: 1
+No_itemtobag: 1
+
+#@MCOM-56367 Inputs..
+username1: abababab@gmail.com
+password1: jackson 
+registry_fn1: mani
+registry_ln1: testuser     
+No_RegItem1: 2
+No_nonRegItem1: 2  
+code: 123
+
+#@MCOM-56368 Inputs...
+username2: TestUser123@gmail.com
+password2: 123456789
+registry_fn2: jack
+registry_ln2: mani    
+No_RegItem2: 2
+No_nonRegItem2: 2
+
+#@MCOM-56376 Inputs...
+username3: GNTestuser1@gmail.com
+password3: seventyeight 
+registry_fn3: mani
+registry_ln3: testuser    
+No_RegItem3: 2
+No_RegtoBag3: 2  
+No_searchItem3: 2
+No_nonRegItem3: 2
