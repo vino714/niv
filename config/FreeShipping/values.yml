@@ -62,11 +62,4 @@ ccard_year: 2020
 phone_area: 123
 phone_exchange: 456
 phone_sub: 7890
-seucrity_code: 123 
-
-#User and Credit Card details not to be used
-First_name_CC: User
-Last_name_CC: A
-CC_No: 377481700439190
-email_CC: GN_Dontuseuser2@abc.com
-Ssn_No: 1221
+seucrity_code: 123

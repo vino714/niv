@@ -238,6 +238,8 @@ And I click the Express Shipping
 Then I verify order summary for "expressShipCharge"
 And I navigate to the other checkout pages
 
+
+@demofirst
 @demo
 @regression
 @MCOM-77004
@@ -271,7 +273,7 @@ When I navigate to shipping options page
 When I click on the "Shipping Policy" link
 And I should see popup window and verify the charges
 
-
+@test
 @regression
 @MCOM-59414
 Scenario: Free Shipping and multiple shipping for above $99.00
@@ -327,6 +329,7 @@ And I should see the standard, premium, express charges
 And I navigate to the billing page
 Then I should see "Merchandise Total:"
 
+@demosecond
 @demo
 @regression
 @MCOM-76999
@@ -349,6 +352,7 @@ When I click on the "Standard Shipping" link
 And I should see a popup window to check shipping charges
 And I verify "2" rows of Standard Shipping Costs table
 
+@demothird
 @demo
 @regression
 @MCOM-59419

@@ -147,8 +147,6 @@ facets_link: div.brandFacet>ul>li>span.BRAND
 facets_showall: 'div#nav_title>div.show-all>span'
 facet_showall_container: //*[@id="nav_title"]/div[@class="show-all"]
 facet_currentCategory: '#breadcrumbs>span.currentCategory'
-facets_breadCrums: 'div#facetItems>span.BRAND'  
-facets_items: 'div#breadcrumbs>div.breadCrumb_productCount>span#productCount'
 
 #Credit Page
 customer_service_path: //div[@id="customerServiceLinks"]/a/h3

@@ -209,12 +209,3 @@ And I enter user Create user details and Credit Card details for a new user
 And I click "Macy's Credit Card" link
 When I click "Credit Account Summary" link
 Then I verify the credit card details has been entered correctly
-
-@1387
-Scenario: Facets verification with bread crumbs
-
-Given I am in MCOM site
-Then I select a menu randomly
-And I select a random submenu 
-And I verify the submenu
-Then I verify the bread crumbs

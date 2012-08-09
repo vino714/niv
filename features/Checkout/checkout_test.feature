@@ -1,5 +1,6 @@
 Feature:  General Tests To Insure That The Checkout Application Is Ready For Testing
 
+@demofirst
 @demo
 @automated
 Scenario:  Place an order with valid Shipping, Payment details and verify order number in Order Confirmation page - Checkout without profile
@@ -27,6 +28,14 @@ When I enter credit card details
 	And I continue checkout again
 Then I am on the "review" page
 #And I debug_sleep for 33333 seconds
+
+@placeorder_quickview
+Scenario: Please an order with valid shipping through quickview feature and verify order details as with guest profile
+Given I am on the Macys's home page
+When I select "random" category
+And I select "random" facet until products getting displayed
+Then I should see the products thumpnails page
+
 
 @co_e2e_no_profile
 @automated
@@ -162,7 +171,7 @@ Then I am on the "enter payment information" page
 	And I see "creditCardType" in red color
 
 
-
+@demosecond
 @demo
 @co_e2e_prodid
 @automated
@@ -243,8 +252,8 @@ When I enter credit card details
 	# |first                   |second         |
 	# |present   | 3    |
 
-
-@mani
+@demothird
+@demo
 @co_xbag
 @automated
 Scenario: Verify Mini bag should be displayed in all the Checkout pages till Order review
@@ -294,7 +303,7 @@ When I enter credit card details
 	Then I am on the "review" page
 	And I see bag_id displayed
 
-
+@demofourth
 @demo
 @co_secure
 @automated
@@ -320,7 +329,7 @@ When I enter credit card details
 	Then I am on the "review" page
 	And I see the page is secure
 
-
+@demofifth
 @demo
 @co_review_fields
 @automated

@@ -27,7 +27,9 @@ end
 And /^I verify the submenu$/ do
   if(page.has_xpath?@xpath['submenu_container'])
    if page.has_content?"#{$subMenuText}"
-      @log.debug("Navigated correctly to the subcategory #{$subMenuText}")
+      puts "Navigated correctly to the subcategory #{$subMenuText}"
+   else
+      puts "Not navigated correctly" 
    end
   else
     steps %Q{  
@@ -40,7 +42,7 @@ end
 
 #Verification of Facets
 Then /^I select the facet and verify it$/ do
-if page.has_css?@xpath['facets_content']
+if page.has_xpath?@xpath['facets']
     count = page.all(:css, @xpath['facets_content'], :visible => true).count
     count = count.to_i
     for i in 1..(count/2)
@@ -49,12 +51,14 @@ if page.has_css?@xpath['facets_content']
       page.all(:css, @xpath['facets_link'], :visible => true, :text => "#{text}").first.click
       wait_until{page.find(:xpath, @xpath['facet_showall_container']).visible?}
       if (page.has_css?("li", :id => "#{text}", :visible => true))
-        @log.debug("Facet Verified")
+        puts "Facet Verified"
       currentCat = page.find(:xpath, @xpath['facet_currentCategory']).text
-         if currentCat.should == text
-          @log.debug("Facet in the current category")
-         page.all(:css, @xpath['facets_showall']).first.click
-       end
+      puts "#{currentCat}"  
+       if currentCat.should == text
+         puts "Facet in the current category"
+        page.all(:css, @xpath['facets_showall']).first.click
+        
+      end
     end
     end
   else
@@ -424,32 +428,3 @@ Then /^I verify the credit card details has been entered correctly$/ do
   end
   end
 end
-
-Then /^I verify the bread crumbs$/ do
-if page.has_css?@xpath['facets_content']
-    count_facets = page.all(:css, @xpath['facets_content'], :visible => true).count
-    count_facets = count_facets.to_i
-    for i in 1..(count_facets/2)
-      wait_until{page.find(:xpath, @xpath['facets']).visible?}
-      $text = page.all(:css, @xpath['facets_link'], :visible => true).sample.text
-      @log.debug("item selected #{$text}")
-      page.all(:css, @xpath['facets_link'], :visible => true, :text => "#{$text}").first.click
-      wait_until{page.find(:xpath, @xpath['facet_showall_container']).visible?}
-      if (page.has_css?(@xpath['facets_breadCrums'], :id => "#{$text}", :visible => true))
-        @log.debug("Bread Crumbs verified correctly")
-        $itemCount = page.find(:css, @xpath['facets_items']).text
-        @log.debug("the Number of items")
-        @log.debug("#{$itemCount}")
-        page.all(:css, @xpath['facets_showall']).first.click
-      end
-    end
-  else
-    steps %Q{
-      Then I select a menu randomly
-      And I select a random submenu
-      And I verify the submenu
-      Then I verify the bread crumbs
-      }
-  end
-end
-

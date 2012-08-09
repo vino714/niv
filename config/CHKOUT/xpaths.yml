@@ -66,7 +66,6 @@ shipping_exchange_nbr1: phoneExchangeNBR
 shipping_exchange_nbr1_val: //input[@id='phoneExchangeNBR']
 shipping_subscriber_nbr1: phoneSubscriberNBR
 shipping_subscriber_nbr1_val: //input[@id='phoneSubscriberNBR']
-edit_shipping_address: //*[@class="checkoutContainer shipAddr"]/a
 New_Default_Shipping details:
 new_shipping_firstname: QA
 new_shipping_lastname: Macys
