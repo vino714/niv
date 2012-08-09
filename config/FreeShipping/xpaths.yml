@@ -197,7 +197,6 @@ wallet_sub: subscriberNbr
 wallet_email: creditCardVB.email
 wallet_verify: creditCardVB.verifyEmail
 wallet_save_btn: //*[@alt="Save"]
-
 #address page
 address_fname: addressVB.firstName
 address_lname: addressVB.lastName
@@ -213,5 +212,3 @@ express_checkout_btn: //*[@alt="EXPRESS CHECKOUT"]
 ccard_code_number: billingVB.currentCreditCard.cvv2
 place_order_btn: //*[@alt='PLACE ORDER']
 order_number: //*[@id='checkoutConfirmation']/div/div[4]/span
-
-#new values added later
