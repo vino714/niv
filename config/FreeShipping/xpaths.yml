@@ -1,4 +1,4 @@
-#Free Shipping Data Files
+Free Shipping Data Files
 #Menu
 macys_home: //*[@id='globalMastheadLogo']/a
 menu_beauty_cosmetics: //*[@alt='beauty and cosmetics']
@@ -213,3 +213,5 @@ express_checkout_btn: //*[@alt="EXPRESS CHECKOUT"]
 ccard_code_number: billingVB.currentCreditCard.cvv2
 place_order_btn: //*[@alt='PLACE ORDER']
 order_number: //*[@id='checkoutConfirmation']/div/div[4]/span
+
+#new values
