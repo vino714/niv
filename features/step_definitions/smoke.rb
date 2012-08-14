@@ -25,9 +25,9 @@ end
 
 When /^I select the category "([^"]*)"$/ do |category|
  @xpath_submenus = @config_data_file['xpath_submenus']
- $category_name=page.all(:xpath,@xpath_submenus).sample.text
  #Random Selection of Category
  if (category == "random")
+ $category_name=page.all(:xpath,@xpath_submenus).sample.text
  click_link $category_name
   else
   #Static Selection for Category
@@ -85,7 +85,7 @@ loadchkconfig()
       page.all(:xpath,@xpath_product_thumbnails).sample.click
       else if page.has_xpath? @xpath_product_wethumbnails 
         page.all(:xpath,@xpath_product_wethumbnails).sample.click
-        else if page.has_xpath? @xpath_product_wethumbnails1
+        else if page.has_xpath? @xpath_product_thumbnails1
             page.all(:xpath,@xpath_product_thumbnails1).sample.click
           else
             #Repeat the Steps if products is Not Visible

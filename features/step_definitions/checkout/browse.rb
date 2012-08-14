@@ -16,7 +16,7 @@ Then /^I navigate to product detail page with product id "([^"]*)"$/ do |prodid|
 # Load Configuration File
   loadchkconfig()
   @pdp_sub_url= @config_data_file['pdp_sub_url']
-  visit("#{@url}"+"#{@pdp_sub_url}"+"#{prodid}")
+  visit("#{$url}"+"#{@pdp_sub_url}"+"#{prodid}")
   @log.debug("Navigate to PDP with Product ID:" "#{prodid}")
 end
 
@@ -66,7 +66,7 @@ Then /^I navigate to VGC "(.*?)","(.*?)","(.*?)"$/ do |prodid,enterAmount,recipi
 # Load Configuration File
   loadchkconfig()
   @pdp_sub_url= @config_data_file['pdp_sub_url']
-  visit("#{@url}"+"#{@pdp_sub_url}"+"#{prodid}")
+  visit("#{$url}"+"#{@pdp_sub_url}"+"#{prodid}")
   @log.debug("Navigate to PDP with Product ID:" "#{prodid}")
   @amount = @config_data_file['amount']
   @email = @config_data_file['email']
@@ -81,7 +81,7 @@ Then /^I navigate to product detail page with common product id "([^"]*)"$/ do |
   table.hashes.each do |attributes|
     prodid = attributes["prodid"]
   end
-  visit("#{@url}"+"#{@pdp_sub_url}"+"#{prodid}")
+  visit("#{$url}"+"#{@pdp_sub_url}"+"#{prodid}")
   @log.debug("Navigate to PDP with Product ID:" "#{prodid}")
 end
 

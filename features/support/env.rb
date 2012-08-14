@@ -17,10 +17,13 @@ Capybara.default_driver = :selenium
 
 #global variable
 $itemCount = 0
+
+$url = ENV['URL']
+
 begin 
   Selenium::WebDriver::Firefox.path = "C:/Program Files/Mozilla Firefox/firefox.exe"
-  rescue
+rescue
   Selenium::WebDriver::Firefox.path = "C:/Program Files (x86)/Mozilla Firefox/firefox.exe"
-  end
+end
 
 Capybara.default_driver = :selenium

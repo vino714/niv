@@ -17,12 +17,12 @@ Given /^I am in MCOM site$/ do
   @ids_data_file = YAML::load(File.open(ids_data_file))
   
   # clear cookies
-  browser = Capybara.current_session.driver.browser
-  browser.manage.delete_all_cookies
+  # browser = Capybara.current_session.driver.browser
+  # browser.manage.delete_all_cookies
   
   #Grab Variables From File
-  url = @navigation_file['url']
-  visit ("#{url}")
+  # url = @navigation_file['url']
+  visit ("#{$url}")
   @log.debug("Successfully entered macys.com")  
 end
 

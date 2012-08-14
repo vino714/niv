@@ -344,7 +344,7 @@ Given /^I am on product detail page for product "([^"]*)"$/ do |pid|
   @ids_data_file = YAML::load(File.open(ids_data_file))
   config_file = "config/#{ENV['ENVIRONMENT']}/navigation.yml"
   @navigation_file = YAML::load(File.open(config_file))  
-  url_current = @navigation_file['url'] + '/shop/product?ID=' + pid
+  url_current = $url + '/shop/product?ID=' + pid
   visit("#{url_current}")
   @env_current = get_env()
 end

@@ -1,4 +1,4 @@
-Free Shipping Data Files
+#Free Shipping Data Files
 #Menu
 macys_home: //*[@id='globalMastheadLogo']/a
 menu_beauty_cosmetics: //*[@alt='beauty and cosmetics']
@@ -146,7 +146,9 @@ facets_content: div.brandFacet>ul:first>li
 facets_link: div.brandFacet>ul>li>span.BRAND
 facets_showall: 'div#nav_title>div.show-all>span'
 facet_showall_container: //*[@id="nav_title"]/div[@class="show-all"]
-facet_currentCategory: '#breadcrumbs>span.currentCategory'
+facet_currentCategory: 'div#breadcrumbs>div.breadCrumb_productCount>span.currentCategory'
+facets_breadCrumbs: 'div#facetItems>span.BRAND'
+facets_items: 'div#breadcrumbs>div.breadCrumb_productCount>span#productCount'
 
 #Credit Page
 customer_service_path: //div[@id="customerServiceLinks"]/a/h3
@@ -157,6 +159,8 @@ main_menu_xpath: //*[@id="globalSubNavStoreLinks"]
 wedding_registry_xpath: //*[@alt="Wedding Registry"]
 main_menu_ul_xpath: //*[@id="globalNav"]/ul
 container_xpath: //*[@id="localContentContainer"]
+sign_out: sign out
+password_id: //*[@id="password"]
 
 
 #Express CheckOut
@@ -197,6 +201,7 @@ wallet_sub: subscriberNbr
 wallet_email: creditCardVB.email
 wallet_verify: creditCardVB.verifyEmail
 wallet_save_btn: //*[@alt="Save"]
+
 #address page
 address_fname: addressVB.firstName
 address_lname: addressVB.lastName

@@ -7,7 +7,7 @@ Given /^I am on the Macy's home page$/ do
   @navigation_file = YAML::load(File.open(config_file))
 # Grab Variables From File
   @url = @navigation_file['url']
-  visit("#{@url}")
+  visit("#{$url}")
   puts current_url
   @log.debug("Opened #{@url}")
 end

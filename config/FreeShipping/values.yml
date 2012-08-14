@@ -17,8 +17,7 @@ val_sec_id: 123
 std_ship_cost_subtot: "Standard Shipping Costs Subtotal: $9.95"
 tot_ship_cost: "TOTAL SHIPPING COSTS FOR YOUR ORDER:"
 
-testuser: testuser@testing.com
-testPassword: 123456789
+freeShipCharge: 'Shipping Charges : $ FREE'
 stdShipCharge: "Shipping Charges : $ 9.95"
 premiumShipCharge: "Shipping Charges : $ 19.95"
 expressShipCharge: "Shipping Charges : $ 29.95"
@@ -28,17 +27,21 @@ expressMulShipCharge: 26
 stdMulShipChargeTwo: 6
 premiumMulShipChargeTwo: 26
 expressMulShipChargeTwo: 36
-freeShipCharge: 'Shipping Charges : $ FREE'
-stdShip: Standard Shipping
-stdShipCost: $9.95
-totEstShip: Total Est. Shipping Costs
-totEstShipCost: $9.95
+
 stdShipMulChargeNoFree: 15.95
 premiumMulShipChargeNoFree: 25.95
 expressShipMulChargeNoFree: 35.95
 stdShipMulChargeNoFreeTwo: 25.95
 premiumMulShipChargeNoFreeTwo: 35.95
 expressShipMulChargeNoFreeTwo: 45.95
+stdShip: Standard Shipping
+stdShipCost: $9.95
+totEstShip: Total Est. Shipping Costs
+totEstShipCost: $9.95
+
+#user profile
+testuser: testuser@testing.com
+testPassword: 123456789
 
 #Profile Details
 First_name: john
@@ -63,4 +66,3 @@ phone_area: 123
 phone_exchange: 456
 phone_sub: 7890
 seucrity_code: 123
-#new values

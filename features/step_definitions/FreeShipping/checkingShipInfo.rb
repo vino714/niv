@@ -204,3 +204,12 @@ And /^I check the overlay for "([^"]*)" as "([^"]*)" displayed$/ do |totEstimati
   end
   @log.debug("Successfully check the overlay")
 end
+
+Then /^I verify the user is navigated to signin page$/ do
+  
+  if page.has_xpath?('//form[@id="signInForm"]')
+    @log.debug("navigated to signin page")
+  else
+    @log.debug("Signin not navigated")
+  end
+end

@@ -97,6 +97,7 @@ xpath_product_thumbnails1: "//div[@id='thumbnails1']/div/div/div/a"
 #Master product xpath details 
 xpath_check_masterproduct: '//*[@id="viewCollectionItemsButton"]/a'
 xpath_master_product: '//*[@class="memberUrlUpdate"]'
+xpath_master_product2: '//*[@class="memberShortDesc"]'
 xpath_master_product_fulldetail: '//*[@class="fullProductDetailsLink"]'
  
 #Product color xpath details 

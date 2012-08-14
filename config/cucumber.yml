@@ -1,4 +1,5 @@
 default:  -r features/support -r features/step_definitions features ENVIRONMENT=QA
+qa:  -r features/support -r features/step_definitions features ENVIRONMENT=QA
 production:  -r features/support -r features/step_definitions features ENVIRONMENT=PRODUCTION
 sns:  -r features/support -r features/step_definitions features ENVIRONMENT=SNS
 chkout: -r features/support -r features/step_definitions features ENVIRONMENT=CHKOUT

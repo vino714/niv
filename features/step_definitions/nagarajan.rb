@@ -21,7 +21,7 @@ Given /^I am on MCOM site$/ do
 # clear cookies
   browser = Capybara.current_session.driver.browser
   browser.manage.delete_all_cookies
-  visit("#{url}")
+  visit("#{$url}")
 end
 
 When /^I add any product of "([^"]*)" with "([^"]*)" to bag$/ do |cathierarchy, quantity|

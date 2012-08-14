@@ -7,7 +7,7 @@ Given /^I am on POS simulator page$/ do
   
 #  Grab Variables From File
   url = @navigation_file['url']
-  visit("#{url}")
+  visit("#{$url}")
   sns_ids_data = "config/data/sns/sns_ids.yml"
   @sns_ids_data = YAML::load(File.open(sns_ids_data))
 end
